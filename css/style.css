@@ -1,0 +1,189 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-link{
+    color: azure;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(38, 0, 255);
+}
+
+nav .navbar-toggler:hover{
+    background-color: rgb(4, 92, 193);
+}
+.h-bg{
+    background-image: url('../animation/Web-Development-Animated-Icons.gif');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+  }
+  /* The animation code */
+  @keyframes introTransition{
+    from {margin-top: 450px;}
+    to {margin-top: 0;}
+  }
+    /* The element to apply the animation to */
+.intro_1{
+    animation-name: introTransition;
+    animation-duration: 5s;
+}
+/* The animation code */
+@keyframes colorTransition{
+    from {background-color: rgba(118, 2, 2, 0.653);}
+    to {background-color: rgba(4, 2, 29, 0.6);}
+  }
+  
+  /* The element to apply the animation to */
+.h-bg-1{
+    background-color: rgba(4, 2, 29, 0.6);
+    height: 820px;
+    padding-top: 300px;
+    margin-top: -250px;
+    margin-bottom: 100px;
+    animation-name: colorTransition;
+    animation-duration: 10s;
+}
+
+
+.sect_2_1{
+    margin-top: 200px;
+}
+.bg-img{
+    background-image: url('../img/developer-doing-front-end-development_about.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li{
+    font-weight: 800;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Girassol', cursive;
+    font-weight: 1000;
+    text-shadow: 1px 1px #102d64;
+}
+
+.contacts_ h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Girassol', cursive;
+    font-weight: 800;
+}
+ 
+
+/* JS */
+
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+
+  #Skill-JS {
+    animation: Animate-JS 5s;
+    border-radius:20px;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #0554fda8;
+}
+
+/* HTML */
+
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}
+  #Skill-HTML {
+    animation: Animate-HTML 5s;
+    border-radius:20px;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    background-color: #0554fda8;
+}
+/* CSS */
+
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+  #Skill-CSS {
+    animation: Animate-CSS 5s;
+    border-radius:20px;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #0554fda8;
+}
+
+@keyframes Animate-BOOTSTRAP {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}
+  #Skill-BOOTSTRAP {
+    animation: Animate-BOOTSTRAP 5s;
+    border-radius:20px;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    background-color: #0554fda8;
+  }
+
+/* C++ */
+
+@keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+  #Skill-C {
+    animation: Animate-C 5s;
+    border-radius:20px;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #0554fda8;
+}
+
+/* JAVA */
+
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+  #Skill-JAVA {
+    animation: Animate-JAVA 5s;
+    border-radius:20px;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #0554fda8;
+  }
+  .SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    border-radius:20px;
+    background: rgba(255, 181, 181, 0.57);
+    margin: 20px auto;
+}
